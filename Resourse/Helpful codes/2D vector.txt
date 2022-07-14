@@ -1,0 +1,12 @@
+Let's say you want to initialize 2D vector, m*n, with initial value to be 0
+
+we could do this
+
+#include<iostream>
+int main(){ 
+    int m = 2, n = 5;
+
+    vector<vector<int>> vec(m, vector<int> (n, 0));
+
+    return 0;
+}

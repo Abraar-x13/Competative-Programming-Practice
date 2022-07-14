@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main(void)
+{
+    int k,n,w;
+    scanf("%d %d %d", &k, &n, &w);
+ 
+    int Bill = 0.5 * (k)*(1+w)*(w);
+    
+    if(Bill>n) { printf("%d", Bill-n); return 0; }
+    else { printf("0"); }
+    return 0;
+}
